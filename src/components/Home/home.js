@@ -43,7 +43,7 @@ function Home() {
                     <Box sx={{ width: '30%' }}>
                         <Grid container spacing={2}>
                             <Grid item xs={6}>
-                                <img src={Three} alt="one" className="one" />
+                                <img src={One} alt="one" className="one" />
                             </Grid>
                             <Grid item xs={6}>
                                 <img src={Two} alt="one" className="one" />
@@ -52,7 +52,7 @@ function Home() {
                                 <img src={Three} alt="one" className="one" />
                             </Grid>
                             <Grid item xs={6}>
-                                <img src={Two} alt="one" className="one" />
+                                <img src={Four} alt="one" className="one" />
                             </Grid>
                         </Grid>
                     </Box>
