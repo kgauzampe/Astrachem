@@ -6,10 +6,10 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import One from "../../images/one.jpg"
-import Two from "../../images/two.jpg"
-import Three from "../../images/three.jpg"
-import Four from "../../images/four.jpg"
+import One from "../../images/Home.png"
+import Two from "../../images/Hospitality.png"
+import Three from "../../images/Industrial.png"
+import Four from "../../images/Medical.png"
 import './home.css'
 
 const Item = styled(Paper)(({ theme }) => ({
