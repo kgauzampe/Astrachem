@@ -1,6 +1,7 @@
 .Home-part{
     background: url('../../images/9.png') center/cover no-repeat;
-    height: 35em;
+    height: 45em;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 

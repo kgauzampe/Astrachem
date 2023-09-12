@@ -29,19 +29,19 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li className="dropdown">
-            <span>Services</span>
+            <span>Sector V</span>
             <div className="dropdown-content">
               <Link to="/service1" spy={true} smooth={true} duration={500}>
-                Software QA Training
+                Home
               </Link>
               <Link to="/service2" spy={true} smooth={true} duration={500}>
-                IT Training
+                Hospitality
               </Link>
               <Link to="/service3" spy={true} smooth={true} duration={500}>
-                IT Consultancy
+                Industrial
               </Link>
               <Link to="/service4" spy={true} smooth={true} duration={500}>
-                Software QA Consultancy
+                Medical
               </Link>
             </div>
           </li>
