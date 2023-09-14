@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-// import logo from '../../../Images/logox.png'
+import logo from '../../images/Astrachemicals.png'
 import './navigation.css';
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-      {/* <img src={logo} alt="logo" className="logo" /> */}
+      <img src={logo} alt="logo" className="logo" />
       </div>
       <div className={`menu ${isOpen ? 'active' : ''}`}>
         <ul>

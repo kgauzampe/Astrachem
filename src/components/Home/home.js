@@ -12,7 +12,7 @@ import Three from "../../images/Industrial.png"
 import Four from "../../images/Medical.png"
 import Collaboration from '../../images/Ellipse 3.png'
 import Vision from '../../images/Ellipse 4.png'
-import Growth from '../../images/Ellipse 5.png' 
+import Growth from '../../images/Ellipse 5.png'
 import './home.css'
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -27,8 +27,11 @@ function Home() {
 
     return (
         <div className="Home">
-            <Navbar />
             <div className="Home-part">
+                <div className="nav">
+                    <Navbar />
+                </div>
+
                 <div className="home-text">
                     <Typography variant="h2" component="h2" sx={{ fontWeight: 'bold' }}>
                         Africa's Reliable Hygeine Partner
@@ -44,7 +47,7 @@ function Home() {
                 </Typography>
                 <div className="sectorDiv">
                     <Box sx={{ width: '30%' }}>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={10}>
                             <Grid item xs={6}>
                                 <img src={One} alt="one" className="one" />
                             </Grid>
@@ -62,20 +65,28 @@ function Home() {
                 </div>
             </div>
             <div className="prodDiff">
-                <Typography>What Makes Our Products Different?</Typography>
+                <Typography
+                    className="prodHeader"
+                    variant="h4"
+                    style={{ fontFamily: 'Arial, sans-serif' }}
+                >
+                    What Makes Our Products Different?
+                </Typography>
                 <div className="image-row">
                     <img src={Collaboration} alt="Image 1" className="image" />
                     <img src={Vision} alt="Image 2" className="image" />
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
-                <Typography>
-                At AstraChem, we're all about making a difference. We're not just here to provide you with locally
-                 developed cleaning solutions for your home and business; we want to be a driving force for 
-                 positive change in the communities we touch. Through partnerships, educational programs, and 
-                 philanthropy, we will work to uplift communities, providing them with the chance to thrive and 
-                 succeed. For us AstraChem provides more than just hygiene – it's a powerful catalyst that changes 
-                 lives.
-                </Typography>
+                <div className="prodText">
+                    <Typography>
+                        At AstraChem, we're all about making a difference. We're not just here to provide you with locally
+                        developed cleaning solutions for your home and business; we want to be a driving force for
+                        positive change in the communities we touch. Through partnerships, educational programs, and
+                        philanthropy, we will work to uplift communities, providing them with the chance to thrive and
+                        succeed. For us AstraChem provides more than just hygiene – it's a powerful catalyst that changes
+                        lives.
+                    </Typography>
+                </div>
             </div>
             <Footer />
         </div>
