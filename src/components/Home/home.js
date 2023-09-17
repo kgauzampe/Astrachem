@@ -13,6 +13,7 @@ import Four from "../../images/Medical.png"
 import Collaboration from '../../images/Ellipse 3.png'
 import Vision from '../../images/Ellipse 4.png'
 import Growth from '../../images/Ellipse 5.png'
+import Button from '@mui/material/Button';
 import './home.css'
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -40,7 +41,16 @@ function Home() {
                         Elevate Your Standards With Our Premium Cleaning Solutions
                     </Typography>
                 </div>
+                <div className="homeBtns">
+                    <Button variant="contained" color="primary">
+                        Learn More
+                    </Button>
+                    <Button variant="contained" >
+                        Order
+                    </Button>
+                </div>
             </div>
+            
             <div className="sector">
                 <Typography variant="h4" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
@@ -85,6 +95,11 @@ function Home() {
                         philanthropy, we will work to uplift communities, providing them with the chance to thrive and
                         succeed. For us AstraChem provides more than just hygiene – it's a powerful catalyst that changes
                         lives.
+                    </Typography>
+                </div>
+                <div className="cater">
+                    <Typography>
+                        Sectors We Cater For
                     </Typography>
                 </div>
             </div>
