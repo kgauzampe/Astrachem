@@ -1,0 +1,21 @@
+.card {
+    width: 250px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    padding: 10px;
+  }
+  
+  .card-title h2 {
+    margin: 0;
+  }
+  

@@ -15,6 +15,12 @@ import Vision from '../../images/Ellipse 4.png'
 import Growth from '../../images/Ellipse 5.png'
 import Button from '@mui/material/Button';
 import Banner from '../../images/banner.png'
+import Econo from '../../images/logox.ico'
+import Contact from "../Contact/Contact";
+import Card1 from "../Cards/Card1/card1";
+import Card2 from "../Cards/Card2/card2";
+import Card3 from "../Cards/Card3/card3";
+import Card4 from "../Cards/Card4/card4";
 import './home.css'
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -43,12 +49,12 @@ function Home() {
                     </Typography>
                 </div>
                 <div className="homeBtns">
-                    <Button variant="contained" color="primary">
+                    <button className="learn">
                         Learn More
-                    </Button>
-                    <Button variant="contained" >
+                    </button>
+                    <button className="homeOrderBtn">
                         Order
-                    </Button>
+                    </button>
                 </div>
             </div>
 
@@ -60,16 +66,16 @@ function Home() {
                     <Box sx={{ width: '30%' }}>
                         <Grid container spacing={10}>
                             <Grid item xs={6}>
-                                <img src={One} alt="one" className="one" />
+                                <Card1 />
                             </Grid>
                             <Grid item xs={6}>
-                                <img src={Two} alt="one" className="one" />
+                                <Card2 />
                             </Grid>
                             <Grid item xs={6}>
-                                <img src={Three} alt="one" className="one" />
+                                <Card3 />
                             </Grid>
                             <Grid item xs={6}>
-                                <img src={Four} alt="one" className="one" />
+                                <Card4 />
                             </Grid>
                         </Grid>
                     </Box>
@@ -79,7 +85,7 @@ function Home() {
                 <Typography
                     className="prodHeader"
                     variant="h4"
-                    style={{ fontFamily: 'Arial, sans-serif' }}
+                    style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                 >
                     What Makes Our Products Different?
                 </Typography>
@@ -89,7 +95,7 @@ function Home() {
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
                 <div className="prodText">
-                    <Typography>
+                    <Typography variant="h6">
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
                         positive change in the communities we touch. Through partnerships, educational programs, and
@@ -101,22 +107,25 @@ function Home() {
                 <div className="cater">
                     <Typography
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                     >
                         Sectors We Cater For
                     </Typography>
-                    <Typography>
-                        Domestic/Home
+                    <Typography variant="h6">
+                        ✔ Domestic/Home
                     </Typography>
-                    <Typography>
-                        Medical Sector
+                    <Typography variant="h6">
+                        ✔ Medical Sector
                     </Typography>
-                    <Typography>
-                        Industrial Sector
+                    <Typography variant="h6">
+                        ✔ Industrial Sector
                     </Typography>
-                    <Typography>
-                        Hospitality Sector
+                    <Typography variant="h6">
+                        ✔ Hospitality Sector
                     </Typography>
+                    <button className="btnOrder">
+                        order
+                    </button>
                 </div>
                 <div className="imgBanner">
                     <img src={Banner} alt="Banner" className="Banner" />
@@ -124,8 +133,8 @@ function Home() {
                 <div className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
                     <Typography
                         color="white"
-                        variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        variant="h3"
+                        style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                     >
                         About AstraChem
                     </Typography>
@@ -134,8 +143,113 @@ function Home() {
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
                     </Typography>
+                    <Typography
+                        color="white"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
+                        Our Mission
+                    </Typography>
+                    <Typography color="white" className="par1">
+                        Our mission is simple yet profound: to enhance the well-being of individuals and communities by
+                        providing cutting-edge cleaning solutions. We believe that a clean environment is the foundation
+                        of a healthy and thriving society.
+                    </Typography>
+                    <Typography
+                        color="white"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
+                        Our Values
+                    </Typography>
+                    <Typography color="white" className="par1">
+                        • Quality Excellence: We are committed to delivering the highest quality cleaning solutions that
+                        meet and exceed your expectations.
+                        <br />
+                        <br />
+                        •  Innovation: We continually strive to innovate and improve our products to ensure efficiency
+                        and sustainability
+                        <br />
+                        <br />
+                        •  Community Focus: We understand the importance of giving back to the community, and we
+                        actively participate in initiatives that uplift and empower those around us.
+                    </Typography>
+                    <Typography
+                        color="white"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
+                        Why Choose AstraChem?
+                    </Typography>
+                    <Typography color="white" className="par1">
+                        1. Expertise: With years of experience in the cleaning industry, our team comprises experts
+                        who understand the unique challenges faced by each sector we serve.
+                        <br />
+                        <br />
+                        2 .Custom Solutions: We tailor our cleaning solutions to suit the specific needs of
+                        domestic, industrial, medical, and hospitality sectors.
+                        <br />
+                        <br />
+                        3. Commitment to Sustainability: We prioritize eco-friendly practices in our manufacturing
+                        processes, helping you maintain a clean environment while preserving the planet.
+                        <br />
+                        <br />
+                        4. Community Engagement: We believe in the power of community, and our initiatives aim to
+                        create a positive impact in South Africa and beyond.
+                    </Typography>
+                    <Typography
+                        color="white"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
+                        Our Vision
+                    </Typography>
+                    <Typography color="white" className="par1">
+                        Our vision extends beyond being a leading detergent company. We envision a cleaner, safer, and
+                        more prosperous South Africa where our products contribute to healthier lives and sustainable
+                        communities
+                        <br />
+                        <br />
+                        Join us in our journey to cleaner, healthier environments. Partner with AstraChem and
+                        experience the difference in cleanliness.
+                    </Typography>
+                    <button className="btnPartner">
+                        Partner With AstraChem
+                    </button>
                 </div>
-
+                <div className="partners">
+                    <Typography
+                        color="#3473C8"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}>
+                        Our Partners
+                    </Typography>
+                    <div className="partnerlogos">
+                        <div className="image-row">
+                            <img src={Econo} alt="Image 1" className="image" />
+                            <img src={Vision} alt="Image 2" className="image" />
+                        </div>
+                    </div>
+                    <div className="contactSection">
+                        <Typography
+                            color="#3473C8"
+                            variant="h4"
+                            style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+                            Wish To Order? Contact The AstraChem Team
+                        </Typography>
+                        <Typography
+                            className="interest"
+                            variant="h6"
+                            style={{ fontFamily: 'Arial, sans-serif' }}
+                        >
+                            If you interested making your order fill out the form below and one of our agents will contact
+                            you back or contact us directly on our WhatsApp
+                        </Typography>
+                        <div className="con">
+                            <Contact />
+                        </div>
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>
