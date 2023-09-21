@@ -79,4 +79,16 @@
     margin-top: 5em;
     text-align: center; 
   }
-  
+  .Banner{
+    width: 100%;
+  }
+  .abtAstrachem{
+    background-color: #3473C8;
+    height: 20em;
+    text-align: center;
+  }
+  .par1{
+    width: 60%;
+    text-align: center;
+    padding-top: 2em;
+  }

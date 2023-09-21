@@ -14,6 +14,7 @@ import Collaboration from '../../images/Ellipse 3.png'
 import Vision from '../../images/Ellipse 4.png'
 import Growth from '../../images/Ellipse 5.png'
 import Button from '@mui/material/Button';
+import Banner from '../../images/banner.png'
 import './home.css'
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -50,7 +51,7 @@ function Home() {
                     </Button>
                 </div>
             </div>
-            
+
             <div className="sector">
                 <Typography variant="h4" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
@@ -98,10 +99,43 @@ function Home() {
                     </Typography>
                 </div>
                 <div className="cater">
-                    <Typography>
+                    <Typography
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
                         Sectors We Cater For
                     </Typography>
+                    <Typography>
+                        Domestic/Home
+                    </Typography>
+                    <Typography>
+                        Medical Sector
+                    </Typography>
+                    <Typography>
+                        Industrial Sector
+                    </Typography>
+                    <Typography>
+                        Hospitality Sector
+                    </Typography>
                 </div>
+                <div className="imgBanner">
+                    <img src={Banner} alt="Banner" className="Banner" />
+                </div>
+                <div className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+                    <Typography
+                        color="white"
+                        variant="h4"
+                        style={{ fontFamily: 'Arial, sans-serif' }}
+                    >
+                        About AstraChem
+                    </Typography>
+                    <Typography color="white" className="par1">
+                        At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
+                        and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
+                        solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
+                    </Typography>
+                </div>
+
             </div>
             <Footer />
         </div>
