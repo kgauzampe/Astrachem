@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import logo from '../../images/Astrachemicals.png'
@@ -10,9 +10,28 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const [scrolling, setScrolling] = useState(false);
 
+  useEffect(() => {
+    // Function to handle scroll events
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolling ? 'scrolling' : ''}`}>
       <div className="logo">
       <img src={logo} alt="logo" className="logo" />
       </div>

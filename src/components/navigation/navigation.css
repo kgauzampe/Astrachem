@@ -3,11 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color :#005249;
+  /* //  background-color :#005249; */
+    transition: background-color 0.3s;
     opacity: 100%;
     color:  white;
   }
-  
+  .navbar.scrolling {
+    background-color :#005249;
+  }
   .logo{
     height: 100px;
   }
