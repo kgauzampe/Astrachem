@@ -13,7 +13,6 @@ const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {
-    // Function to handle scroll events
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setScrolling(true);
@@ -22,10 +21,8 @@ const Navbar = () => {
       }
     };
 
-    // Attach the scroll event listener
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
