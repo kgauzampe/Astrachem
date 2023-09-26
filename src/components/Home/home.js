@@ -21,6 +21,7 @@ import Card1 from "../Cards/Card1/card1";
 import Card2 from "../Cards/Card2/card2";
 import Card3 from "../Cards/Card3/card3";
 import Card4 from "../Cards/Card4/card4";
+import GlobalL from '../../images/logo global.png'
 import './home.css'
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -227,7 +228,7 @@ function Home() {
                     <div className="partnerlogos">
                         <div className="image-row">
                             <img src={Econo} alt="Image 1" className="image" />
-                            <img src={Vision} alt="Image 2" className="image" />
+                            <img src={GlobalL} alt="Image 2" className="image" />
                         </div>
                     </div>
                     <div className="contactSection">
