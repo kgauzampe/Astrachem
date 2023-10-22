@@ -1,5 +1,5 @@
 .Home-part{
-    background: url('../../images/9.png') center/cover no-repeat;
+    background: url('../../images/NewHome.png') center/cover no-repeat;
     height: 45em;
     width: 100%;
     /* display: flex;
@@ -26,11 +26,28 @@
   width: 100%; 
   margin-bottom: 10px; 
 }
+.Products{
+  width: 60%;
+}
+.ProdList{
+  background-color: #3473C8; 
+  color: white;
+  padding: 12px 24px; 
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer; 
+  align-items: center;
 
+}
+.prodlistcon{
+  justify-content: center; 
+  align-items: center; 
+padding-bottom: 5em;
+}
 .homeBtns {
-  display: flex; /* Set the display to flex */
-  justify-content: center; /* Center buttons horizontally within the container */
-  gap: 10px; /* Add some spacing between the buttons */
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
 }
 
 .sectorText{
@@ -41,7 +58,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 30% !important;
-    /* margin-top: 2em !important; */
+
 }
 .one{
     height: 300px;

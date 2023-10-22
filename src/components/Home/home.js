@@ -17,20 +17,12 @@ import Button from '@mui/material/Button';
 import Banner from '../../images/banner.png'
 import Econo from '../../images/logox.ico'
 import Contact from "../Contact/Contact";
-import Card1 from "../Cards/Card1/card1";
-import Card2 from "../Cards/Card2/card2";
-import Card3 from "../Cards/Card3/card3";
-import Card4 from "../Cards/Card4/card4";
+import Products from '../../images/Products.png'
+import Card from '../Card1/card1'
+import Serv1 from '../Serv1Card/Serv1Card'
 import GlobalL from '../../images/logo global.png'
 import './home.css'
 
-// const Item = styled(Paper)(({ theme }) => ({
-//     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-//     ...theme.typography.body2,
-//     padding: theme.spacing(1),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-// }));
 
 function Home() {
 
@@ -60,23 +52,36 @@ function Home() {
             </div>
 
             <div className="sector">
-                <Typography variant="h4" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
+                <Typography
+                    color="#3473C8"
+                    variant="h4"
+                    sx={{ fontWeight: 'bold' }}
+                    style={{ fontFamily: 'Arial, sans-serif' }}>
+                    Our Products
+                </Typography>
+                <div className="prodlistcon">
+                    <img src={Products} alt="Card" className="Products" />
+                    <button className="ProdList">
+                        Download Product List
+                    </button>
+                </div>
+                <Typography variant="h4" color="#3473C8" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
                 <div className="sectorDiv">
                     <Box sx={{ width: '30%' }}>
                         <Grid container spacing={10}>
                             <Grid item xs={6}>
-                                <Card1 />
+                                <Serv1 />
                             </Grid>
                             <Grid item xs={6}>
-                                <Card2 />
+                                {/* <Card2 /> */}
                             </Grid>
                             <Grid item xs={6}>
-                                <Card3 />
+                                {/* <Card3 /> */}
                             </Grid>
                             <Grid item xs={6}>
-                                <Card4 />
+                                {/* <Card4 /> */}
                             </Grid>
                         </Grid>
                     </Box>
