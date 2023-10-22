@@ -18,6 +18,7 @@ import Banner from '../../images/banner.png'
 import Econo from '../../images/logox.ico'
 import Contact from "../Contact/Contact";
 import Products from '../../images/Products.png'
+import Prod from '../../images/Prod.png'
 import Card from '../Card1/card1'
 import Serv1 from '../Serv1Card/Serv1Card'
 import GlobalL from '../../images/logo global.png'
@@ -61,10 +62,10 @@ function Home() {
                 </Typography>
                 <div className="prodlistcon">
                     <img src={Products} alt="Card" className="Products" />
-                    <button className="ProdList">
+                </div>
+                <button className="ProdList">
                         Download Product List
                     </button>
-                </div>
                 <Typography variant="h4" color="#3473C8" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
@@ -134,7 +135,7 @@ function Home() {
                     </button>
                 </div>
                 <div className="imgBanner">
-                    <img src={Banner} alt="Banner" className="Banner" />
+                    <img src={Prod} alt="Banner" className="Banner" />
                 </div>
                 <div className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
                     <Typography

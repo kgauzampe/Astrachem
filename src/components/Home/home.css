@@ -37,9 +37,9 @@
   font-size: 16px;
   cursor: pointer; 
   align-items: center;
-
 }
 .prodlistcon{
+  padding-top: 2em;
   justify-content: center; 
   align-items: center; 
 padding-bottom: 5em;
@@ -58,7 +58,7 @@ padding-bottom: 5em;
     justify-content: center;
     align-items: center;
     margin-left: 30% !important;
-
+padding-top: 2em;
 }
 .one{
     height: 300px;
