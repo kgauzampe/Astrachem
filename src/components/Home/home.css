@@ -25,6 +25,7 @@
   color: white; 
   width: 100%; 
   margin-bottom: 10px; 
+  padding-bottom: 2em;
 }
 .Products{
   width: 60%;
@@ -68,7 +69,8 @@ padding-top: 2em;
     margin-top: 3em;
     display: flex;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
+
   }
   
 .image-row {

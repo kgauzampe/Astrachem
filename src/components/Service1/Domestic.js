@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 // import Serv1 from '../../Images/QA Training.png'
 // import secondIMG from '../../Images/QA Training pic 2.png'
 
-const Service1 = () => {
+const Domestic = () => {
 
     return (
         <div className="Service1">
@@ -16,7 +16,7 @@ const Service1 = () => {
             <Container>
                 <div className="Service1-content">
                     <Typography variant="h3" component="h3" className="Serv1-typo">
-                        Help Your TeamMaster Software Quality through Expert-Led QA Training
+                        Your Reliable Partner for Top-Quality Affordable Domestic Cleaning Products
                     </Typography>
                     <br />
                     <br />
@@ -26,76 +26,84 @@ const Service1 = () => {
                     <br />
                     <div className="serv1-article">
                         <Typography>
-                            Unlock the potential of your software quality assurance with EconoTeque's comprehensive Software QA Training program.
-                            Designed to equip businesses with top-tier QA skills, our training options cater to diverse needs, including both onsite
-                            and online formats.
-                            <br />
-                            <br />
-                            By investing in Software QA training, you empower your technical workforce to ensure impeccable software quality, 
-                            setting the stage for enhanced operational excellence, innovative product development, heightened competitiveness,
-                            and a robust foundation for sustained growth.
+                            At AstraChem, we offer a comprehensive selection of cleaning solutions tailored to meet the unique
+                            requirements of domestic and home settings. From disinfectants to specialized formulations,
+                            we recognize the challenges faced by homeowners, and we're here to serve as your trusted supplier
+                            of top-tier cleaning products that enhance cleanliness and safety in your living space.
                         </Typography>
 
                         <div className="Serv1-text">
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                                Get Your Team Equipped With World-Class QA Training
+                                Our Commitment to Home Excellence
                             </Typography>
                             <Typography className="training1">
-                                Determining the need for Software QA training within your team is crucial for maintaining an edge in quality assurance.
-                                Here's how to assess whether your team is ready for Software QA training:
+                                AstraChem is more than just a supplier of cleaning products for domestic and home use; we're your
+                                dedicated ally in ensuring the well-being of your family and the upkeep of your residence.
+                                Our unwavering commitment to your satisfaction is evident in every cleaning product and service we
+                                provide.
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                                How We Can Help You Create a Cleaner Home Environment
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Quality Quandaries:</span>If your team encounters challenges in identifying
-                                software bugs and issues, it's a clear signal that Software QA training can equip them with the tools to enhance
-                                the quality control process. Training provides the skills needed to rigorously analyze and improve software quality,
-                                transforming confusion into precision.
+                                <span style={{ fontWeight: 'bold' }}>• Customized Solutions</span>We understand that each home is unique, and
+                                one-size-fits-all solutions don't suffice. Our team collaborates closely with you to understand your specific
+                                needs, allowing us to offer tailored cleaning products perfectly suited to your living space. We're not just
+                                here to sell products; we're here to find the right solutions for you.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Efficiency Hurdles:</span>Struggling to conduct efficient testing and quality
-                                assessment? Software QA training steps in to optimize workflows. Your team will learn how to perform comprehensive
-                                testing more efficiently and accurately, reducing testing time and enhancing overall efficiency
+                                <span style={{ fontWeight: 'bold' }}>• Trusted Quality</span>In the domestic sector, maintaining a 
+                                high standard of cleanliness is a priority. Our cleaning products undergo stringent testing to ensure 
+                                they meet the highest standards for quality, safety, and compliance. With AstraChem, you can have 
+                                confidence that your home is in safe hands.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Frustration with Flaws:</span> Frustration due to recurring software defects
-                                indicates a need for Software QA training. This training addresses your team's concerns and empowers them with
-                                effective techniques, turning frustration into mastery of error detection and prevention.
+                                <span style={{ fontWeight: 'bold' }}>• Expert Guidance</span> Do you have questions 
+                                or need guidance? Our team of experts is at your service. Whether you need advice on
+                                 product selection, detailed usage instructions, or have compliance concerns, we're 
+                                 just a call or email away. We're here to make your household tasks easier and 
+                                 provide the support you need.
+
                             </Typography>
-                            <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Rise in Software Glitches:</span>  An increase in software glitches and
-                                functional errors can stem from a gap in understanding how to conduct thorough quality assurance. Software QA
-                                training bridges this gap by providing the necessary expertise, leading to a reduction in defects and smoother
-                                software operations.
-                            </Typography>
-                            <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Adoption of New Testing Techniques:</span>  Hesitant to embrace new testing
-                                methodologies or tools? Software QA training can alleviate those concerns. This training introduces innovative
-                                testing approaches, making the adoption of advanced testing techniques an exciting avenue for growth and improvement.
-                                <br />
-                                <br />
-                                Beyond teaching, we empower your teams to elevate their problem-solving abilities and cultivate a comprehensive
-                                understanding of the software they test from its foundational core.
-                            </Typography>
-                            <br/>
+                            <br />
                             {/* <img src={secondIMG} alt="Card" className="serv-image1" /> */}
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                                Why Choose EconoTeque's Software QA Training?
+                            Sectors in the Domestic/Home Industry We Serve
                             </Typography>
                             <Typography component="div" >
-                                EconoTeque stands as a beacon of expert-led Software QA training. Our CEO and lead consultant, Dr Overton, personally guides training initiatives, ensuring your teams learn from a true industry expert.
+                                • Family Homes
                                 <br />
+                                • Apartments and Condos
                                 <br />
-                                Dr Overton's credentials include:
+                                • Townhouses
                                 <br />
+                                • Vacation Rentals
                                 <br />
-                                • Holding a PhD in Computer Science
+                                • Residential Communities
                                 <br />
-                                • Serving as the Lead Integration Engineer – Deputy Chief Engineer at the US Airforce, achieving savings of $6.2 million
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                            What Other Sectors Does AstraChem Serve?
+                            </Typography>
+                            <Typography className="training1">
+                            If you're in need of cleaning solutions for different sectors, AstraChem also extends 
+                            its expertise to the following industries:
+                            </Typography>
+                            <Typography component="div" >
+                                • Medical
                                 <br />
-                                • Chairing the Computer Information Systems Bachelors Program @ the Remington College (Memphis, Tennessee, USA)
+                                • Hospitality
                                 <br />
-                                • Authoring over 3 distinguished computer science textbooks
+                                • Industrial
                                 <br />
-                                Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                            Why Choose AstraChem for Your Home Cleaning Needs?
+                            </Typography>
+                            <Typography className="training1">
+                            Are you searching for top-tier cleaning solutions for your home? AstraChem has you covered. We're committed 
+                            to helping you maintain the highest standards of cleanliness and safety in your living space. Explore our 
+                            product range to discover how AstraChem can be your trusted supplier of cleaning products.
                             </Typography>
                         </div>
                         <div className=" servBtn">
@@ -103,10 +111,10 @@ const Service1 = () => {
                                 variant="contained"
                                 size="medium"
                                 className="serv1Btn"
-                                href="https://calendly.com/droverton/econoteque-consultation"
+                                // href="https://calendly.com/droverton/econoteque-consultation"
                                 target="_blank"
                             >
-                                schedule a consultation
+                                Contact Us Today
                             </Button>
                         </div>
                     </div>
@@ -118,4 +126,4 @@ const Service1 = () => {
     )
 }
 
-export default Service1;
+export default Domestic;

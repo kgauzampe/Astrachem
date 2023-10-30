@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 // import Serv1 from '../../Images/QA Training.png'
 // import secondIMG from '../../Images/QA Training pic 2.png'
 
-const Service1 = () => {
+const Hospitality = () => {
 
     return (
         <div className="Service1">
@@ -16,7 +16,7 @@ const Service1 = () => {
             <Container>
                 <div className="Service1-content">
                     <Typography variant="h3" component="h3" className="Serv1-typo">
-                        Help Your TeamMaster Software Quality through Expert-Led QA Training
+                    Your Trusted Partner for Top-Quality Hospitality Cleaning Products
                     </Typography>
                     <br />
                     <br />
@@ -26,76 +26,97 @@ const Service1 = () => {
                     <br />
                     <div className="serv1-article">
                         <Typography>
-                            Unlock the potential of your software quality assurance with EconoTeque's comprehensive Software QA Training program.
-                            Designed to equip businesses with top-tier QA skills, our training options cater to diverse needs, including both onsite
-                            and online formats.
-                            <br />
-                            <br />
-                            By investing in Software QA training, you empower your technical workforce to ensure impeccable software quality, 
-                            setting the stage for enhanced operational excellence, innovative product development, heightened competitiveness,
-                            and a robust foundation for sustained growth.
+                        At AstraChem, we provide a comprehensive range of cleaning solutions tailored to the unique 
+                        needs of the hospitality industry. From disinfectants to specialized formulations, we 
+                        understand the challenges faced by hospitality establishments, and we're here to be your 
+                        trusted supplier of top-quality cleaning products that will elevate the cleanliness and 
+                        safety of your premises.
                         </Typography>
 
                         <div className="Serv1-text">
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                                Get Your Team Equipped With World-Class QA Training
+                            Our Commitment to Hospitality Excellence
                             </Typography>
                             <Typography className="training1">
-                                Determining the need for Software QA training within your team is crucial for maintaining an edge in quality assurance.
-                                Here's how to assess whether your team is ready for Software QA training:
+                            AstraChem is more than just a supplier of cleaning products for the hospitality sector; 
+                            we're your dedicated partner in ensuring the well-being of your guests and staff. Our unwavering 
+                            commitment to your success is evident in every cleaning product and service we offer.
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                            How We Can Help You Create a Cleaner Hospitality Environment
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Quality Quandaries:</span>If your team encounters challenges in identifying
-                                software bugs and issues, it's a clear signal that Software QA training can equip them with the tools to enhance
-                                the quality control process. Training provides the skills needed to rigorously analyze and improve software quality,
-                                transforming confusion into precision.
+                                <span style={{ fontWeight: 'bold' }}>• Customized Solutions</span>We know that one-size-fits-all solutions don't work 
+                                in the hospitality industry. Our team works closely with you to understand your specific requirements, 
+                                enabling us to provide bespoke cleaning products perfectly suited to your establishment. We're not merely here 
+                                to sell products; we're here to discover the right solutions for you.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Efficiency Hurdles:</span>Struggling to conduct efficient testing and quality
-                                assessment? Software QA training steps in to optimize workflows. Your team will learn how to perform comprehensive
-                                testing more efficiently and accurately, reducing testing time and enhancing overall efficiency
+                                <span style={{ fontWeight: 'bold' }}>• Trustworthy Quality</span>In hospitality, maintaining high standards of 
+                                cleanliness is non-negotiable. Our cleaning products undergo rigorous testing to ensure they meet the 
+                                industry's highest benchmarks for quality, safety, and compliance. With AstraChem, you can trust that your 
+                                facility is in the best hands.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Frustration with Flaws:</span> Frustration due to recurring software defects
-                                indicates a need for Software QA training. This training addresses your team's concerns and empowers them with
-                                effective techniques, turning frustration into mastery of error detection and prevention.
+                                <span style={{ fontWeight: 'bold' }}>• Expert Guidance</span> Have questions or need guidance? Our team of experts is 
+                                here to assist you every step of the way. Whether you require assistance with product selection, detailed usage instructions, 
+                                or compliance concerns, we're just a call or email away. We're here to simplify your tasks and provide the 
+                                support you need.
                             </Typography>
-                            <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Rise in Software Glitches:</span>  An increase in software glitches and
-                                functional errors can stem from a gap in understanding how to conduct thorough quality assurance. Software QA
-                                training bridges this gap by providing the necessary expertise, leading to a reduction in defects and smoother
-                                software operations.
-                            </Typography>
-                            <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>Adoption of New Testing Techniques:</span>  Hesitant to embrace new testing
-                                methodologies or tools? Software QA training can alleviate those concerns. This training introduces innovative
-                                testing approaches, making the adoption of advanced testing techniques an exciting avenue for growth and improvement.
-                                <br />
-                                <br />
-                                Beyond teaching, we empower your teams to elevate their problem-solving abilities and cultivate a comprehensive
-                                understanding of the software they test from its foundational core.
-                            </Typography>
+                            
                             <br/>
                             {/* <img src={secondIMG} alt="Card" className="serv-image1" /> */}
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                                Why Choose EconoTeque's Software QA Training?
+                            Sectors in the Hospitality Industry We Serve
                             </Typography>
                             <Typography component="div" >
-                                EconoTeque stands as a beacon of expert-led Software QA training. Our CEO and lead consultant, Dr Overton, personally guides training initiatives, ensuring your teams learn from a true industry expert.
                                 <br />
                                 <br />
-                                Dr Overton's credentials include:
+                                • Hotels
+                                <br />
+                                • Restaurants
+                                <br />
+                                • Resorts
+                                <br/>
+                                • Spas
                                 <br />
                                 <br />
-                                • Holding a PhD in Computer Science
+                                • Event Venues
                                 <br />
-                                • Serving as the Lead Integration Engineer – Deputy Chief Engineer at the US Airforce, achieving savings of $6.2 million
+                                • Vacation Rentals
                                 <br />
-                                • Chairing the Computer Information Systems Bachelors Program @ the Remington College (Memphis, Tennessee, USA)
+                                • Catering Services
+                                <br/>
+                                • Bars and Lounges
                                 <br />
-                                • Authoring over 3 distinguished computer science textbooks
+                               
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                            What Other Sectors Does AstraChem Serve?
+                            </Typography>
+                            <Typography className="training1">
+                            If you're seeking cleaning solutions for other sectors, AstraChem extends its expertise 
+                            to the following industries:
+                            </Typography>
+                            <Typography component="div" >
                                 <br />
-                                Empower your team with EconoTeque's Software QA Training – your gateway to mastering the art of software quality assurance and propelling your business to new heights of excellence.
+                                <br />
+                                • Medical
+                                <br />
+                                • Industrial 
+                                <br />
+                                • Domestic/Homes
+                                <br/>
+                               
+                            </Typography>
+                            <Typography variant="h5" component="h5" className="Serv1-t">
+                            Why Choose AstraChem for Your Hospitality Cleaning Needs?
+                            </Typography>
+                            <Typography className="training1">
+                            Are you searching for top-tier cleaning solutions in the hospitality sector? AstraChem 
+                            has you covered. We're committed to helping you maintain the highest standards of 
+                            cleanliness and safety for your guests. Explore our product range to discover how 
+                            AstraChem can be your reliable supplier of cleaning products.
                             </Typography>
                         </div>
                         <div className=" servBtn">
@@ -103,10 +124,10 @@ const Service1 = () => {
                                 variant="contained"
                                 size="medium"
                                 className="serv1Btn"
-                                href="https://calendly.com/droverton/econoteque-consultation"
+                                // href="https://calendly.com/droverton/econoteque-consultation"
                                 target="_blank"
                             >
-                                schedule a consultation
+                                Contact Us Today
                             </Button>
                         </div>
                     </div>
@@ -118,4 +139,4 @@ const Service1 = () => {
     )
 }
 
-export default Service1;
+export default Hospitality;

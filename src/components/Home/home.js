@@ -19,8 +19,14 @@ import Econo from '../../images/logox.ico'
 import Contact from "../Contact/Contact";
 import Products from '../../images/Products.png'
 import Prod from '../../images/Prod.png'
-import Card from '../Card1/card1'
+import Card1 from '../Card1/card1'
+import Card2 from '../Card2/card2'
+import Card3 from '../Card3/card3'
+import Card4 from '../Card4/card4'
 import Serv1 from '../Serv1Card/Serv1Card'
+import Serv2 from '../Serv2Card/Serv2Card'
+import Serv3 from '../Serv3Card/Serv3Card'
+import Serv4 from '../Serv4Card/Serv4Card'
 import GlobalL from '../../images/logo global.png'
 import './home.css'
 
@@ -38,7 +44,7 @@ function Home() {
                     <Typography variant="h2" component="h2" sx={{ fontWeight: 'bold' }}>
                         Africa's Reliable Hygeine Partner
                     </Typography>
-                    <Typography variant="h4" component="h2">
+                    <Typography variant="h5" component="h2">
                         Elevate Your Standards With Our Premium Cleaning Solutions
                     </Typography>
                 </div>
@@ -64,29 +70,44 @@ function Home() {
                     <img src={Products} alt="Card" className="Products" />
                 </div>
                 <button className="ProdList">
-                        Download Product List
-                    </button>
+                    Download Product List
+                </button>
                 <Typography variant="h4" color="#3473C8" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
                 <div className="sectorDiv">
-                    <Box sx={{ width: '30%' }}>
-                        <Grid container spacing={10}>
-                            <Grid item xs={6}>
-                                <Serv1 />
-                            </Grid>
-                            <Grid item xs={6}>
-                                {/* <Card2 /> */}
-                            </Grid>
-                            <Grid item xs={6}>
-                                {/* <Card3 /> */}
-                            </Grid>
-                            <Grid item xs={6}>
-                                {/* <Card4 /> */}
+                    <Grid container >
+                        <Grid item xs={6}>
+                            <Grid container >
+                                <Grid item xs={6}>
+                                    <Serv1 />
+                                </Grid>
                             </Grid>
                         </Grid>
-                    </Box>
+                        <Grid item xs={6}>
+                            <Grid container spacing={2}>
+                                <Grid item xs={6}>
+                                    <Serv2 />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Grid container spacing={2}>
+                                <Grid item xs={6}>
+                                    <Serv3 />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Grid container spacing={2}>
+                                <Grid item xs={6}>
+                                    <Serv4 />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
                 </div>
+
             </div>
             <div className="prodDiff">
                 <Typography

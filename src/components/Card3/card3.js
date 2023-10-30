@@ -1,8 +1,8 @@
 import React from 'react';
 import Domestic from '../../images/Home.png'
-import './card2.css';
+import './card3.css';
 
-const Card2 = ({ title, content, imageUrl }) => {
+const Card3 = ({ title, content, imageUrl }) => {
   return (
     <div className="card">
       <div className="card-image-container">
@@ -14,4 +14,4 @@ const Card2 = ({ title, content, imageUrl }) => {
   );
 };
 
-export default Card2;
+export default Card3;

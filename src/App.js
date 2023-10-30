@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/home';
-import Service1 from './components/Service1/Domestic'
+import Domestic from './components/Service1/Domestic'
+import Medical from './components/Service3/Medical';
+import Hospitality from './components/Service2/Hospitality';
+import Industrial from './components/Service4/Industrial'
 import './App.css';
 
 function App() {
@@ -11,7 +14,10 @@ function App() {
       <div>
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Domestic" element={<Service1 />} />
+        <Route path="/Domestic" element={<Domestic />} />
+        <Route path="/Medical" element={<Medical />} />
+        <Route path="/Hospitality" element={<Hospitality />} />
+        <Route path="/Industrial" element={<Industrial />} />
         </Routes>
       </div>
     </Router>
