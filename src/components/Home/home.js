@@ -75,38 +75,20 @@ function Home() {
                 <Typography variant="h4" color="#3473C8" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
-                <div className="sectorDiv">
-                    <Grid container >
-                        <Grid item xs={6}>
-                            <Grid container >
-                                <Grid item xs={6}>
-                                    <Serv1 />
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Grid container spacing={2}>
-                                <Grid item xs={6}>
-                                    <Serv2 />
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Grid container spacing={2}>
-                                <Grid item xs={6}>
-                                    <Serv3 />
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                        <Grid item xs={6}>
-                            <Grid container spacing={2}>
-                                <Grid item xs={6}>
-                                    <Serv4 />
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                </div>
+                <div className="about-cards">
+                        <div className="card1">
+                            <Serv1 />
+                        </div>
+                        <div className="card2">
+                            <Serv2 />
+                        </div>
+                        <div className="card3">
+                            <Serv3 />
+                        </div>
+                        <div className="card4">
+                            <Serv4 />
+                        </div>
+                    </div>
 
             </div>
             <div className="prodDiff">
