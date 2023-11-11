@@ -117,6 +117,7 @@ function Home() {
                 <div className="cater">
                     <Typography
                         variant="h4"
+                        color="#3473C8"
                         style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                     >
                         Sectors We Cater For
