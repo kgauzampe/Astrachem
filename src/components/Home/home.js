@@ -41,12 +41,17 @@ function Home() {
                 </div>
 
                 <div className="home-text">
+                    <div className="t1">
                     <Typography variant="h2" component="h2" sx={{ fontWeight: 'bold' }}>
                         Africa's Reliable Hygeine Partner
                     </Typography>
+                    </div>
+                    <div className="t2">
                     <Typography variant="h5" component="h2">
                         Elevate Your Standards With Our Premium Cleaning Solutions
                     </Typography>
+                    </div>
+                 
                 </div>
                 <div className="homeBtns">
                     <button className="learn">
