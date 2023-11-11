@@ -45,7 +45,7 @@ const Navbar = () => {
             </ScrollLink>
           </li>
           <li className="dropdown">
-            <span>Sector V</span>
+            <span>Sector </span>
             <div className="dropdown-content">
               <Link to="/service1" spy={true} smooth={true} duration={500}>
                 Home
