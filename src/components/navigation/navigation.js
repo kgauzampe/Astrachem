@@ -40,7 +40,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <ScrollLink to="abtBanner" spy={true} smooth={true} duration={500}>
+            <ScrollLink to="abtAstrachem" spy={true} smooth={true} duration={500}>
               About
             </ScrollLink>
           </li>
