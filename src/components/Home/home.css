@@ -240,6 +240,11 @@ padding-top: 2em;
   .abtAstrachem{
     background-color: #3473C8;
     text-align: center;
-    height: 263vh !important;
+    height: 363vh !important;
+  }
+  .prodText {
+    margin: 0 auto; 
+    margin-top: 5em;
+    text-align: center; 
   }
   }

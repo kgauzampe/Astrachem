@@ -77,7 +77,10 @@ function Home() {
                 <button className="ProdList">
                     Download Product List
                 </button>
-                <Typography variant="h4" color="#3473C8" component="h2" sx={{ fontWeight: 'bold' }} className="sectorText">
+                <Typography   
+                    color="#3473C8"
+                    variant="h4"
+                    style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
                 <div className="about-cards">
@@ -98,7 +101,7 @@ function Home() {
             </div>
             <div className="prodDiff">
                 <Typography
-                    className="prodHeader"
+                    // className="prodHeader"
                     variant="h4"
                     style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                 >
@@ -109,7 +112,7 @@ function Home() {
                     <img src={Vision} alt="Image 2" className="image" />
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
-                <div className="prodText">
+                <div >
                     <Typography variant="h6">
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
