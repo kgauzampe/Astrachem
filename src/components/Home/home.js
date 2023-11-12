@@ -103,6 +103,7 @@ function Home() {
                 <Typography
                     // className="prodHeader"
                     variant="h4"
+                    color="#3473C8"
                     style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
                 >
                     What Makes Our Products Different?
