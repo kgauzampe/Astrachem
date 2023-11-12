@@ -129,9 +129,9 @@ padding-top: 2em;
   .partnerlogos{
     padding-top: 3em;
   }
-  .interest{
+  /* .interest{
   
-  }
+  } */ 
   .contactSection{
     padding: 2em;
   }
@@ -207,4 +207,39 @@ padding-top: 2em;
   }
   .t2{
     padding-top: 1em;
+  }
+  @media screen and (max-width: 768px) {
+    .Home-part{
+      background: url('../../images/NewHome.png') center/cover no-repeat;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
+      text-align: center; 
+  }
+  .about-cards{
+    display: block;
+    grid-template-columns: repeat(2, 0fr); 
+    gap: 2rem;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 2em;
+  
+  }
+  .homeOrderBtn {
+    border: 2px solid #3473C8; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: transparent; 
+    color: #3473C8; 
+    cursor: pointer; 
+  }
+  .abtAstrachem{
+    background-color: #3473C8;
+    text-align: center;
+    height: 263vh !important;
+  }
   }
