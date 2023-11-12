@@ -62,9 +62,9 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <Link to="/Contact" spy={true} smooth={true} duration={500} className='link'>
+          <ScrollLink to="con" spy={true} smooth={true} duration={500}>
               Contact
-            </Link>
+            </ScrollLink>
           </li>
         </ul>
       </div>
