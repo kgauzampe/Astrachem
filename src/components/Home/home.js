@@ -42,16 +42,16 @@ function Home() {
 
                 <div className="home-text">
                     <div className="t1">
-                    <Typography variant="h2" component="h2" sx={{ fontWeight: 'bold' }}>
-                        Africa's Reliable Hygeine Partner
-                    </Typography>
+                        <Typography variant="h2" component="h2" sx={{ fontWeight: 'bold' }}>
+                            Africa's Reliable Hygeine Partner
+                        </Typography>
                     </div>
                     <div className="t2">
-                    <Typography variant="h5" component="h2">
-                        Elevate Your Standards With Our Premium Cleaning Solutions
-                    </Typography>
+                        <Typography variant="h5" component="h2">
+                            Elevate Your Standards With Our Premium Cleaning Solutions
+                        </Typography>
                     </div>
-                 
+
                 </div>
                 <div className="homeBtns">
                     <button className="learn">
@@ -77,26 +77,26 @@ function Home() {
                 <button className="ProdList">
                     Download Product List
                 </button>
-                <Typography   
+                <Typography
                     color="#3473C8"
                     variant="h4"
                     style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}>
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
                 <div className="about-cards">
-                        <div className="card1">
-                            <Serv1 />
-                        </div>
-                        <div className="card2">
-                            <Serv2 />
-                        </div>
-                        <div className="card3">
-                            <Serv3 />
-                        </div>
-                        <div className="card4">
-                            <Serv4 />
-                        </div>
+                    <div className="card1">
+                        <Serv1 />
                     </div>
+                    <div className="card2">
+                        <Serv2 />
+                    </div>
+                    <div className="card3">
+                        <Serv3 />
+                    </div>
+                    <div className="card4">
+                        <Serv4 />
+                    </div>
+                </div>
 
             </div>
             <div className="prodDiff">
@@ -114,7 +114,7 @@ function Home() {
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
                 <div className="centext">
-                    <Typography  variant="h6"  color="#65676A" style={{ textAlign: 'center' }}>
+                    <Typography variant="h6" color="#65676A" style={{ textAlign: 'center' }}>
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
                         positive change in the communities we touch. Through partnerships, educational programs, and
@@ -131,20 +131,24 @@ function Home() {
                     >
                         Sectors We Cater For
                     </Typography>
-                    <Typography variant="h6"  color="#65676A" style={{ fontFamily: 'Montserrat'}}>
-                        ✔ Domestic/Home
-                    </Typography>
-                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
-                        ✔ Medical Sector
-                    </Typography>
-                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
-                        ✔ Industrial Sector
-                    </Typography>
-                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
-                        ✔ Hospitality Sector
-                    </Typography>
-                    <br/>
-                    <br/>
+                    <div style={{ textAlign: 'center' }}>
+                        <Typography variant="h6" color="#65676A" style={{ fontFamily: 'Montserrat' }}>
+                            ✔ Domestic/Home
+                        </Typography>
+                        <Typography variant="h6" color="#65676A" style={{ fontFamily: 'Montserrat' }}>
+                            ✔ Medical Sector
+                        </Typography>
+                        <Typography variant="h6" color="#65676A" style={{ fontFamily: 'Montserrat' }}>
+                            ✔ Industrial Sector
+                        </Typography>
+                        <Typography variant="h6" color="#65676A" style={{ fontFamily: 'Montserrat' }}>
+                            ✔ Hospitality Sector
+                        </Typography>
+                    </div>
+
+
+                    <br />
+                    <br />
                     <button className="btnOrder">
                         order
                     </button>
@@ -160,7 +164,7 @@ function Home() {
                     >
                         About AstraChem
                     </Typography>
-                    <Typography color="white" className="par1"     style={{ fontFamily: 'Montserrat'}}>
+                    <Typography color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
                         At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
@@ -177,8 +181,8 @@ function Home() {
                         providing cutting-edge cleaning solutions. We believe that a clean environment is the foundation
                         of a healthy and thriving society.
                     </Typography>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <Typography
                         color="white"
                         variant="h4"
@@ -198,8 +202,8 @@ function Home() {
                         •  Community Focus: We understand the importance of giving back to the community, and we
                         actively participate in initiatives that uplift and empower those around us.
                     </Typography>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <Typography
                         color="white"
                         variant="h4"

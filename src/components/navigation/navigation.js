@@ -47,16 +47,16 @@ const Navbar = () => {
           <li className="dropdown">
             <span>Sector </span>
             <div className="dropdown-content">
-              <Link to="/service1" spy={true} smooth={true} duration={500}>
+              <Link to="/Domestic" spy={true} smooth={true} duration={500}>
                 Home
               </Link>
-              <Link to="/service2" spy={true} smooth={true} duration={500}>
+              <Link to="/Hospitalty" spy={true} smooth={true} duration={500}>
                 Hospitality
               </Link>
-              <Link to="/service3" spy={true} smooth={true} duration={500}>
+              <Link to="/Industrial" spy={true} smooth={true} duration={500}>
                 Industrial
               </Link>
-              <Link to="/service4" spy={true} smooth={true} duration={500}>
+              <Link to="/Medical" spy={true} smooth={true} duration={500}>
                 Medical
               </Link>
             </div>

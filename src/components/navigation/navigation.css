@@ -46,6 +46,7 @@
   
   .menu ul li:hover .dropdown-content {
     display: block;
+    color: blueviolet;
   }
   
   .burger-menu {
