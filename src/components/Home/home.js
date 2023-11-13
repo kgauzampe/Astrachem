@@ -166,11 +166,13 @@ function Home() {
                     >
                         About AstraChem
                     </Typography>
-                    <Typography color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
+                    <Typography   variant="h6" color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
                         At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
                     </Typography>
+                    <br />
+                    <br />
                     <Typography
                         color="white"
                         variant="h4"
@@ -178,7 +180,7 @@ function Home() {
                     >
                         Our Mission
                     </Typography>
-                    <Typography color="white" className="par1">
+                    <Typography color="white" className="par1" variant="h6">
                         Our mission is simple yet profound: to enhance the well-being of individuals and communities by
                         providing cutting-edge cleaning solutions. We believe that a clean environment is the foundation
                         of a healthy and thriving society.
@@ -192,7 +194,7 @@ function Home() {
                     >
                         Our Values
                     </Typography>
-                    <Typography color="white" className="par1">
+                    <Typography color="white" className="par1" variant="h6">
                         • Quality Excellence: We are committed to delivering the highest quality cleaning solutions that
                         meet and exceed your expectations.
                         <br />
@@ -213,7 +215,7 @@ function Home() {
                     >
                         Why Choose AstraChem?
                     </Typography>
-                    <Typography color="white" className="par1">
+                    <Typography color="white" className="par1" variant="h6">
                         1. Expertise: With years of experience in the cleaning industry, our team comprises experts
                         who understand the unique challenges faced by each sector we serve.
                         <br />
@@ -236,7 +238,7 @@ function Home() {
                     >
                         Our Vision
                     </Typography>
-                    <Typography color="white" className="par1">
+                    <Typography color="white" className="par1" variant="h6">
                         Our vision extends beyond being a leading detergent company. We envision a cleaner, safer, and
                         more prosperous South Africa where our products contribute to healthier lives and sustainable
                         communities
