@@ -143,6 +143,8 @@ function Home() {
                     <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
                         ✔ Hospitality Sector
                     </Typography>
+                    <br/>
+                    <br/>
                     <button className="btnOrder">
                         order
                     </button>
@@ -175,6 +177,8 @@ function Home() {
                         providing cutting-edge cleaning solutions. We believe that a clean environment is the foundation
                         of a healthy and thriving society.
                     </Typography>
+                    <br/>
+                    <br/>
                     <Typography
                         color="white"
                         variant="h4"
@@ -194,6 +198,8 @@ function Home() {
                         •  Community Focus: We understand the importance of giving back to the community, and we
                         actively participate in initiatives that uplift and empower those around us.
                     </Typography>
+                    <br/>
+                    <br/>
                     <Typography
                         color="white"
                         variant="h4"
