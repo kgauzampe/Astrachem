@@ -68,7 +68,7 @@ function Home() {
                     color="#3473C8"
                     variant="h4"
                     sx={{ fontWeight: 'bold' }}
-                    style={{ fontFamily: 'Arial, sans-serif' }}>
+                    style={{ fontFamily: 'Montserrat' }}>
                     Our Products
                 </Typography>
                 <div className="prodlistcon">
@@ -80,7 +80,7 @@ function Home() {
                 <Typography   
                     color="#3473C8"
                     variant="h4"
-                    style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+                    style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}>
                     Choose Your Sector and Explore Expert Selected Products
                 </Typography>
                 <div className="about-cards">
@@ -104,7 +104,7 @@ function Home() {
                     // className="prodHeader"
                     variant="h4"
                     color="#3473C8"
-                    style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
+                    style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}
                 >
                     What Makes Our Products Different?
                 </Typography>
@@ -127,7 +127,7 @@ function Home() {
                     <Typography
                         variant="h4"
                         color="#3473C8"
-                        style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
+                        style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}
                     >
                         Sectors We Cater For
                     </Typography>
@@ -154,11 +154,11 @@ function Home() {
                     <Typography
                         color="white"
                         variant="h3"
-                        style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
+                        style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}
                     >
                         About AstraChem
                     </Typography>
-                    <Typography color="white" className="par1">
+                    <Typography color="white" className="par1"     style={{ fontFamily: 'Montserrat'}}>
                         At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
@@ -166,7 +166,7 @@ function Home() {
                     <Typography
                         color="white"
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        style={{ fontFamily: 'Montserrat' }}
                     >
                         Our Mission
                     </Typography>
@@ -178,7 +178,7 @@ function Home() {
                     <Typography
                         color="white"
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        style={{ fontFamily: 'Montserrat' }}
                     >
                         Our Values
                     </Typography>
@@ -197,7 +197,7 @@ function Home() {
                     <Typography
                         color="white"
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        style={{ fontFamily: 'Montserrat' }}
                     >
                         Why Choose AstraChem?
                     </Typography>
@@ -220,7 +220,7 @@ function Home() {
                     <Typography
                         color="white"
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}
+                        style={{ fontFamily: 'Montserrat' }}
                     >
                         Our Vision
                     </Typography>
@@ -241,7 +241,7 @@ function Home() {
                     <Typography
                         color="#3473C8"
                         variant="h4"
-                        style={{ fontFamily: 'Arial, sans-serif' }}>
+                        style={{ fontFamily: 'Montserrat' }}>
                         Our Partners
                     </Typography>
                     <div className="partnerlogos">
@@ -254,13 +254,13 @@ function Home() {
                         <Typography
                             color="#3473C8"
                             variant="h4"
-                            style={{ fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+                            style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}>
                             Wish To Order? Contact The AstraChem Team
                         </Typography>
                         <Typography
                             className="interest"
                             variant="h6"
-                            style={{ fontFamily: 'Arial, sans-serif' }}
+                            style={{ fontFamily: 'Montserrat' }}
                         >
                             If you interested making your order fill out the form below and one of our agents will contact
                             you back or contact us directly on our WhatsApp
