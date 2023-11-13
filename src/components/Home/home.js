@@ -113,8 +113,8 @@ function Home() {
                     <img src={Vision} alt="Image 2" className="image" />
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
-                <div >
-                    <Typography variant="h6">
+                <div className="centext">
+                    <Typography  variant="h6"  color="#65676A" style={{ textAlign: 'center' }}>
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
                         positive change in the communities we touch. Through partnerships, educational programs, and
@@ -125,22 +125,22 @@ function Home() {
                 </div>
                 <div className="cater">
                     <Typography
-                        variant="h4"
-                        color="#3473C8"
+                        variant="h6"
+                        color="#65676A"
                         style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}
                     >
                         Sectors We Cater For
                     </Typography>
-                    <Typography variant="h6">
+                    <Typography variant="h6"  color="#65676A" style={{ fontFamily: 'Montserrat'}}>
                         ✔ Domestic/Home
                     </Typography>
-                    <Typography variant="h6">
+                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
                         ✔ Medical Sector
                     </Typography>
-                    <Typography variant="h6">
+                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
                         ✔ Industrial Sector
                     </Typography>
-                    <Typography variant="h6">
+                    <Typography variant="h6"  color="#65676A"  style={{ fontFamily: 'Montserrat'}}>
                         ✔ Hospitality Sector
                     </Typography>
                     <button className="btnOrder">
@@ -261,6 +261,7 @@ function Home() {
                             className="interest"
                             variant="h6"
                             style={{ fontFamily: 'Montserrat' }}
+                            color="#65676A"
                         >
                             If you interested making your order fill out the form below and one of our agents will contact
                             you back or contact us directly on our WhatsApp

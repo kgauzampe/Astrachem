@@ -85,7 +85,7 @@ const Contact = () => {
     return (
         <div className="contact">
             <form className="contact-con" onSubmit={handleSubmit}>
-                <Typography>Name</Typography>
+                {/* <Typography>Name</Typography> */}
                 <TextField
                     label="Name"
                     variant="outlined"
@@ -101,7 +101,9 @@ const Contact = () => {
                     value={name}
                     onChange={(event) => setName(event.target.value)}
                 />
-                <Typography id="filled-basic">Surname</Typography>
+                {/* <Typography id="filled-basic">Surname</Typography> */}
+                <br />
+                <br />
                 <TextField
                     label="Surname"
                     variant="outlined"
@@ -116,7 +118,9 @@ const Contact = () => {
                     value={surname}
                     onChange={(event) => setSurname(event.target.value)}
                 />
-                <Typography id="filled-basic">Email Address</Typography>
+                {/* <Typography id="filled-basic">Email Address</Typography> */}
+                <br />
+                <br />
                 <TextField
                     label="Email"
                     variant="outlined"
@@ -134,7 +138,9 @@ const Contact = () => {
                     value={email}
                     onChange={(event) => setEmail(event.target.value)}
                 />
-                <Typography id="filled-basic">Contact Number</Typography>
+                {/* <Typography id="filled-basic">Contact Number</Typography> */}
+                <br />
+                <br />
                 <TextField
                     label="Contact Number"
                     variant="outlined"
@@ -149,7 +155,9 @@ const Contact = () => {
                     value={contact}
                     onChange={(event) => setContact(event.target.value)}
                 />
-                <Typography id="filled-basic">Country</Typography>
+                {/* <Typography id="filled-basic">Country</Typography> */}
+                <br />
+                <br />
                 <TextField
                     label="Country"
                     variant="outlined"
@@ -164,7 +172,9 @@ const Contact = () => {
                     value={country}
                     onChange={(event) => setCountry(event.target.value)}
                 />
-                <Typography id="filled-basic">City/Town</Typography>
+                {/* <Typography id="filled-basic">City/Town</Typography> */}
+                <br />
+                <br />
                 <TextField
                     label="City/Town"
                     variant="outlined"
@@ -181,9 +191,11 @@ const Contact = () => {
                 />
                 <div className="radio">
                     <FormControl component="fieldset">
-                        <Typography fontWeight="bold">
+                        {/* <Typography fontWeight="bold">
                             Reason for contact
-                        </Typography>
+                        </Typography> */}
+                        <br />
+                        <br />
                         <RadioGroup
                             aria-label="radio-group"
                             name="radio-group"
