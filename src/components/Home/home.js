@@ -74,9 +74,11 @@ function Home() {
                 <div className="prodlistcon">
                     <img src={Products} alt="Card" className="Products" />
                 </div>
+                <div className="prodListBtn">
                 <button className="ProdList">
                     Download Product List
                 </button>
+                </div>
                 <Typography
                     color="#3473C8"
                     variant="h4"

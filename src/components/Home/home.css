@@ -51,10 +51,13 @@
   align-items: center;
 }
 .prodlistcon{
-  padding-top: 2em;
+  padding-top: 1em;
   justify-content: center; 
   align-items: center; 
 padding-bottom: 5em;
+}
+.prodListBtn{
+  padding-bottom: 2em;
 }
 .homeBtns {
   display: flex;
