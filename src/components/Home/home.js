@@ -28,10 +28,19 @@ import Serv2 from '../Serv2Card/Serv2Card'
 import Serv3 from '../Serv3Card/Serv3Card'
 import Serv4 from '../Serv4Card/Serv4Card'
 import GlobalL from '../../images/logo global.png'
+import { saveAs } from 'file-saver';
 import './home.css'
 
 
 function Home() {
+    const handleDownload = () => {
+        
+        const fileUrl = process.env.PUBLIC_URL + '/Assets/product_list.pdf';
+    
+     
+        saveAs(fileUrl, 'product_list.pdf');
+      };
+    
 
     return (
         <div className="Home">
@@ -75,7 +84,7 @@ function Home() {
                     <img src={Products} alt="Card" className="Products" />
                 </div>
                 <div className="prodListBtn">
-                <button className="ProdList">
+                <button className="ProdList" onClick={handleDownload}>
                     Download Product List
                 </button>
                 </div>
