@@ -230,15 +230,11 @@ padding-top: 2em;
       justify-content: center; 
       text-align: center; 
   }
-  .about-cards{
-    display: block;
-    grid-template-columns: repeat(2, 0fr); 
-    gap: 2rem;
-    position: relative;
-    align-items: center;
-    justify-content: center; 
-    padding-bottom: 2em;
-  
+  .about-cards {
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      width: 80%; 
   }
   .homeOrderBtn {
     border: 2px solid #3473C8; 
