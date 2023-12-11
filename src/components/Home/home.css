@@ -265,5 +265,9 @@ padding-top: 2em;
 .imgBanner{
   display: none;
 }
+.aboutAtext{
+  font-size: 35px !important;
+  font-weight: bolder !important;
+}
 
   }
