@@ -42,10 +42,14 @@
   }
   @media (max-width: 768px) {
     .Serv1-typo{
+  
       display: flex;
       justify-content: center;
       align-items: center !important;
       text-align: center;
+      font-size: 18px !important;
+      font-weight: bolder !important;
+      margin-top: 3em !important;
     }
     .serv1-article{
       width: 15em;
@@ -61,5 +65,9 @@
       display: block;
       margin: 0 auto; 
       margin-left: 2em;
+    }
+    .Serv1-t{
+      font-size: 19px !important;
+      font-weight: bolder !important;
     }
   }
