@@ -5,7 +5,7 @@ import "./Industrial.css";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
-// import Serv1 from '../../Images/QA Training.png'
+import Serv1 from '../../images/Ind.jpg'
 // import secondIMG from '../../Images/QA Training pic 2.png'
 
 const Industrial = () => {
@@ -20,7 +20,7 @@ const Industrial = () => {
                     </Typography>
                     <br />
                     <br />
-                    {/* <img src={Serv1} alt="Card" className="serv-image1" /> */}
+                    <img src={Serv1} alt="Card" className="serv-image1" />
                     <br />
                     <br />
                     <br />
