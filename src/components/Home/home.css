@@ -123,7 +123,8 @@ padding-top: 2em;
  
     background-color: #3473C8;
     text-align: center;
-    height: 225vh !important;
+    height: auto !important;
+    padding: 20px;
   }
   .par1{
     width: 60%;
@@ -246,9 +247,7 @@ padding-top: 2em;
     cursor: pointer; 
   }
   .abtAstrachem{
-    background-color: #3473C8;
-    text-align: center;
-    height: 423vh !important;
+    padding: 10px;
     width: 100%;
   }
   .prodText {
