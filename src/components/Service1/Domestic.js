@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Domestic.css";
 // import Navbar from "../Navigation/Navigation/Nav";
-// import Footer from "../Footer/footer";
+import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
@@ -120,7 +120,7 @@ const Domestic = () => {
                     </div>
                 </div>
             </Container>
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     )

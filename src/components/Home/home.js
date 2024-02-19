@@ -34,13 +34,13 @@ import './home.css'
 
 function Home() {
     const handleDownload = () => {
-        
+
         const fileUrl = process.env.PUBLIC_URL + '/Assets/product_list.pdf';
-    
-     
+
+
         saveAs(fileUrl, 'product_list.pdf');
-      };
-    
+    };
+
 
     return (
         <div className="Home">
@@ -66,7 +66,13 @@ function Home() {
                     <button className="learn">
                         Learn More
                     </button>
-                    <button className="homeOrderBtn">
+                    <button className="homeOrderBtn"
+                          onClick={() => {
+                            const contactDiv = document.getElementById('contactDiv');
+                            if (contactDiv) {
+                                contactDiv.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}>
                         Order
                     </button>
                 </div>
@@ -84,9 +90,9 @@ function Home() {
                     <img src={Products} alt="Card" className="Products" />
                 </div>
                 <div className="prodListBtn">
-                <button className="ProdList" onClick={handleDownload}>
-                    Download Product List
-                </button>
+                    <button className="ProdList" onClick={handleDownload}>
+                        Download Product List
+                    </button>
                 </div>
                 <Typography
                     color="#3473C8"
@@ -125,7 +131,7 @@ function Home() {
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
                 <div className="centext">
-                    <Typography variant="h6" color="#65676A" style={{ textAlign: 'center' }}>
+                    <Typography variant="h6" color="#65676A" style={{ textAlign: 'center', fontFamily: 'Montserrat' }}>
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
                         positive change in the communities we touch. Through partnerships, educational programs, and
@@ -160,7 +166,13 @@ function Home() {
 
                     <br />
                     <br />
-                    <button className="btnOrder">
+                    <button className="btnOrder"
+                          onClick={() => {
+                            const contactDiv = document.getElementById('contactDiv');
+                            if (contactDiv) {
+                                contactDiv.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}>
                         order
                     </button>
                 </div>
@@ -169,14 +181,14 @@ function Home() {
                 </div>
                 <div className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
                     <Typography
-                    className="aboutAtext"
+                        className="aboutAtext"
                         color="white"
                         variant="h3"
                         style={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}
                     >
                         About AstraChem
                     </Typography>
-                    <Typography   variant="h6" color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
+                    <Typography variant="h6" color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
                         At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
@@ -208,11 +220,11 @@ function Home() {
                         • Quality Excellence: We are committed to delivering the highest quality cleaning solutions that
                         meet and exceed your expectations.
                         <br />
-                        <br />
+
                         •  Innovation: We continually strive to innovate and improve our products to ensure efficiency
                         and sustainability
                         <br />
-                        <br />
+
                         •  Community Focus: We understand the importance of giving back to the community, and we
                         actively participate in initiatives that uplift and empower those around us.
                     </Typography>
@@ -257,7 +269,15 @@ function Home() {
                         Join us in our journey to cleaner, healthier environments. Partner with AstraChem and
                         experience the difference in cleanliness.
                     </Typography>
-                    <button className="btnPartner">
+                    <button
+                        className="btnPartner"
+                        onClick={() => {
+                            const contactDiv = document.getElementById('contactDiv');
+                            if (contactDiv) {
+                                contactDiv.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}
+                    >
                         Partner With AstraChem
                     </button>
                 </div>
@@ -290,7 +310,7 @@ function Home() {
                             If you interested making your order fill out the form below and one of our agents will contact
                             you back or contact us directly on our WhatsApp
                         </Typography>
-                        <div className="con">
+                        <div id="contactDiv" className="con">
                             <Contact />
                         </div>
                     </div>

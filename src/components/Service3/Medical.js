@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Medical.css";
 // import Navbar from "../Navigation/Navigation/Nav";
-// import Footer from "../Footer/footer";
+import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
