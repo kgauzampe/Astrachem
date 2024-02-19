@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Industrial.css";
-// import Navbar from "../Navigation/Navigation/Nav";
-// import Footer from "../Footer/footer";
+import Navbar from "../navigation/navigation";
+import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
@@ -12,7 +12,7 @@ const Industrial = () => {
 
     return (
         <div className="Service1">
-            {/* <Navbar /> */}
+            <Navbar />
             <Container>
                 <div className="Service1-content">
                     <Typography variant="h3" component="h3" className="Serv1-typo">
@@ -125,7 +125,7 @@ const Industrial = () => {
                     </div>
                 </div>
             </Container>
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     )
