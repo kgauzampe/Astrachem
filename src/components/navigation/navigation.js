@@ -48,7 +48,7 @@ const Navbar = () => {
             <span>Sector </span>
             <div className="dropdown-content">
               <Link to="/Domestic" spy={true} smooth={true} duration={500}>
-                Home
+                Domestic
               </Link>
               <Link to="/Hospitalty" spy={true} smooth={true} duration={500}>
                 Hospitality

@@ -17,8 +17,8 @@ import Button from '@mui/material/Button';
 import Banner from '../../images/banner.png'
 import Econo from '../../images/logox.ico'
 import Contact from "../Contact/Contact";
-import Products from '../../images/Products.png'
-import Prod from '../../images/Prod.png'
+import Products from '../../images/newprod.png'
+import Prod from '../../images/newbanner.png'
 import Card1 from '../Card1/card1'
 import Card2 from '../Card2/card2'
 import Card3 from '../Card3/card3'
