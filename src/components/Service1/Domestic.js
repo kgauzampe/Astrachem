@@ -12,7 +12,7 @@ const Domestic = () => {
 
     return (
         <div className="Service1">
-            <Navbar />
+            {/* <Navbar /> */}
             <Container>
                 <div className="Service1-content">
                     <Typography variant="h3" component="h3" className="Serv1-typo">
