@@ -61,7 +61,7 @@ const Industrial = () => {
                                 concerns, we're just a call or email away. We're here to simplify your industrial cleaning processes.
                             </Typography>
 
-                            <br/>
+                            {/* <br/> */}
                             {/* <img src={secondIMG} alt="Card" className="serv-image1" /> */}
                             <Typography variant="h5" component="h5" className="Serv1-t">
                             Sectors in the Industrial Industry We Serve:

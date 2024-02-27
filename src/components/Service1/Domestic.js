@@ -70,6 +70,7 @@ const Domestic = () => {
                             <Typography variant="h5" component="h5" className="Serv1-t">
                             Sectors in the Domestic/Home Industry We Serve
                             </Typography>
+                            <br />
                             <Typography component="div" >
                                 • Family Homes
                                 <br />

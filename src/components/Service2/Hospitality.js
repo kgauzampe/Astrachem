@@ -70,7 +70,7 @@ const Hospitality = () => {
                             Sectors in the Hospitality Industry We Serve
                             </Typography>
                             <Typography component="div" >
-                                <br />
+                                {/* <br /> */}
                                 <br />
                                 • Hotels
                                 <br />
