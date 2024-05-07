@@ -139,6 +139,7 @@ function Home() {
                         succeed. For us AstraChem provides more than just hygiene – it's a powerful catalyst that changes
                         lives.
                     </Typography>
+                    
                 </div>
                 <div className="cater">
                     <Typography
@@ -188,8 +189,9 @@ function Home() {
                     >
                         About AstraChem
                     </Typography>
-                    <Typography variant="h6" color="white" className="par1" style={{ fontFamily: 'Montserrat' }}>
-                        At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
+             
+                    <Typography color="white" className="par1" variant="h6">
+                    At AstraChem, we are more than just a detergent company – we are your partner in cleanliness
                         and hygiene. Based in the heart of South Africa, we take pride in delivering top-tier cleaning
                         solutions to a wide range of sectors, including domestic, industrial, medical, and hospitality.
                     </Typography>

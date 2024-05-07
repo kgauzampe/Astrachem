@@ -127,12 +127,14 @@ padding-top: 2em;
     height: auto !important;
     padding: 20px;
   }
-  .par1{
+  .par1 {
     width: 60%;
     text-align: center;
     padding-top: 2em;
     text-align: start;
-  }
+    font-family: 'Montserrat', sans-serif; /* Add Montserrat font family */
+}
+
   .partnerlogos{
     padding-top: 3em;
   }
