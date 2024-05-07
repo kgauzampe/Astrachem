@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolling ? 'scrolling' : ''}`}>
       <div className="logo">
-      <img src={logo} alt="logo" className="logo" />
+        <img src={logo} alt="logo" className="logo" />
       </div>
       <div className={`menu ${isOpen ? 'active' : ''}`}>
         <ul>
@@ -47,22 +47,23 @@ const Navbar = () => {
           <li className="dropdown">
             <span>Sector </span>
             <div className="dropdown-content">
-              <Link to="/Domestic" spy={true} smooth={true} duration={500}>
+              <Link to="/Domestic">
                 Domestic
               </Link>
-              <Link to="/Hospitalty" spy={true} smooth={true} duration={500}>
+              <Link to="/Hospitalty">
                 Hospitality
               </Link>
-              <Link to="/Industrial" spy={true} smooth={true} duration={500}>
+              <Link to="/Industrial">
                 Industrial
               </Link>
-              <Link to="/Medical" spy={true} smooth={true} duration={500}>
+              <Link to="/Medical">
                 Medical
               </Link>
             </div>
+
           </li>
           <li>
-          <ScrollLink to="con" spy={true} smooth={true} duration={500}>
+            <ScrollLink to="con" spy={true} smooth={true} duration={500}>
               Contact
             </ScrollLink>
           </li>
