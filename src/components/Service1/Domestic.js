@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Domestic.css";
-import Navbar from "../navigation/navigation";
+// import Navbar from "../navigation/navigation";
+import CardNavbar from "../CardNav/navigation/navigation";
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
@@ -12,7 +13,7 @@ const Domestic = () => {
 
     return (
         <div className="Service1">
-            {/* <Navbar /> */}
+            <CardNavbar />
             <Container>
                 <div className="Service1-content">
                     <Typography variant="h3" component="h3" className="Serv1-typo">
