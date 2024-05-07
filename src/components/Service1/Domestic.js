@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Domestic.css";
-// import Navbar from "../navigation/navigation";
+import { Link } from 'react-router-dom';
 import CardNavbar from "../CardNav/navigation/navigation";
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
@@ -53,23 +53,23 @@ const Domestic = () => {
                                 here to sell products; we're here to find the right solutions for you.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>• Trusted Quality</span>In the domestic sector, maintaining a 
-                                high standard of cleanliness is a priority. Our cleaning products undergo stringent testing to ensure 
-                                they meet the highest standards for quality, safety, and compliance. With AstraChem, you can have 
+                                <span style={{ fontWeight: 'bold' }}>• Trusted Quality</span>In the domestic sector, maintaining a
+                                high standard of cleanliness is a priority. Our cleaning products undergo stringent testing to ensure
+                                they meet the highest standards for quality, safety, and compliance. With AstraChem, you can have
                                 confidence that your home is in safe hands.
                             </Typography>
                             <Typography variant="body1" className="body1">
-                                <span style={{ fontWeight: 'bold' }}>• Expert Guidance</span> Do you have questions 
+                                <span style={{ fontWeight: 'bold' }}>• Expert Guidance</span> Do you have questions
                                 or need guidance? Our team of experts is at your service. Whether you need advice on
-                                 product selection, detailed usage instructions, or have compliance concerns, we're 
-                                 just a call or email away. We're here to make your household tasks easier and 
-                                 provide the support you need.
+                                product selection, detailed usage instructions, or have compliance concerns, we're
+                                just a call or email away. We're here to make your household tasks easier and
+                                provide the support you need.
 
                             </Typography>
                             <br />
                             {/* <img src={secondIMG} alt="Card" className="serv-image1" /> */}
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                            Sectors in the Domestic/Home Industry We Serve
+                                Sectors in the Domestic/Home Industry We Serve
                             </Typography>
                             <br />
                             <Typography component="div" >
@@ -85,11 +85,11 @@ const Domestic = () => {
                                 <br />
                             </Typography>
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                            What Other Sectors Does AstraChem Serve?
+                                What Other Sectors Does AstraChem Serve?
                             </Typography>
                             <Typography className="training1">
-                            If you're in need of cleaning solutions for different sectors, AstraChem also extends 
-                            its expertise to the following industries:
+                                If you're in need of cleaning solutions for different sectors, AstraChem also extends
+                                its expertise to the following industries:
                             </Typography>
                             <Typography component="div" >
                                 • Medical
@@ -100,12 +100,12 @@ const Domestic = () => {
                                 <br />
                             </Typography>
                             <Typography variant="h5" component="h5" className="Serv1-t">
-                            Why Choose AstraChem for Your Home Cleaning Needs?
+                                Why Choose AstraChem for Your Home Cleaning Needs?
                             </Typography>
                             <Typography className="training1">
-                            Are you searching for top-tier cleaning solutions for your home? AstraChem has you covered. We're committed 
-                            to helping you maintain the highest standards of cleanliness and safety in your living space. Explore our 
-                            product range to discover how AstraChem can be your trusted supplier of cleaning products.
+                                Are you searching for top-tier cleaning solutions for your home? AstraChem has you covered. We're committed
+                                to helping you maintain the highest standards of cleanliness and safety in your living space. Explore our
+                                product range to discover how AstraChem can be your trusted supplier of cleaning products.
                             </Typography>
                         </div>
                         <div className=" servBtn">
@@ -113,8 +113,8 @@ const Domestic = () => {
                                 variant="contained"
                                 size="medium"
                                 className="serv1Btn"
-                                // href="https://calendly.com/droverton/econoteque-consultation"
-                                target="_blank"
+                                component={Link}
+                                to="/#contactDiv"
                             >
                                 Contact Us Today
                             </Button>

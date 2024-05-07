@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Industrial.css";
 import CardNavbar from "../CardNav/navigation/navigation";
+import { Link } from 'react-router-dom';
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
@@ -112,12 +113,12 @@ const Industrial = () => {
                         </Typography>
                         </div>
                         <div className=" servBtn">
-                            <Button
+                        <Button
                                 variant="contained"
                                 size="medium"
                                 className="serv1Btn"
-                                // href="https://calendly.com/droverton/econoteque-consultation"
-                                target="_blank"
+                                component={Link}
+                                to="/#contactDiv"
                             >
                                 Contact Us Today
                             </Button>

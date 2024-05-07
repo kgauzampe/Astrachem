@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Medical.css";
 import CardNavbar from "../CardNav/navigation/navigation";
 import Footer from "../footer/footer";
+import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
@@ -88,12 +89,12 @@ const Medical = () => {
                             </Typography>
                         </div>
                         <div className=" servBtn">
-                            <Button
+                        <Button
                                 variant="contained"
                                 size="medium"
                                 className="serv1Btn"
-                                // href="https://calendly.com/droverton/econoteque-consultation"
-                                target="_blank"
+                                component={Link}
+                                to="/#contactDiv"
                             >
                                 Contact Us Today
                             </Button>
