@@ -43,13 +43,13 @@
   background-color: white;
   padding: 10px;
 }
-.menu ul li a:hover {
-  /* color: #00f; */ /* Removed hover color */
-}
+/* .menu ul li a:hover {
+
+} */
 
 .menu ul li:hover .dropdown-content {
   display: block;
-  /* color: blueviolet; */ /* Removed color change */
+
 }
 
 .burger-menu {
