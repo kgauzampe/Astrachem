@@ -63,7 +63,12 @@ function Home() {
 
                 </div>
                 <div className="homeBtns">
-                    <button className="learn">
+                    <button className="learn"     onClick={() => {
+                            const abtAstrachem = document.getElementById('abtAstrachem');
+                            if (abtAstrachem) {
+                                abtAstrachem.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}>
                         Learn More
                     </button>
                     <button className="homeOrderBtn"
@@ -180,7 +185,7 @@ function Home() {
                 <div className="imgBanner">
                     <img src={Prod} alt="Banner" className="Banner" />
                 </div>
-                <div className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+                <div id="abtAstrachem" className="abtAstrachem" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
                     <Typography
                         className="aboutAtext"
                         color="white"
