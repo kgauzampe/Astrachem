@@ -40,9 +40,9 @@ const CardNavbar = () => {
             </Link>
           </li>
           <li>
-            <ScrollLink to="abtAstrachem" spy={true} smooth={true} duration={500} className='link' >
+            <Link to="/#abtAstrachem" spy={true} smooth={true} duration={500} className='link' >
               About
-            </ScrollLink>
+            </Link>
           </li>
           <li className="dropdown">
             <span className='link'>Sector </span>
