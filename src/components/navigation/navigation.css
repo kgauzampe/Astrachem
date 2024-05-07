@@ -43,6 +43,9 @@
     background-color: white;
     padding: 10px;
   }
+  .menu ul li a:hover {
+    color: #00f; /* Change to your desired hover color */
+  }
   
   .menu ul li:hover .dropdown-content {
     display: block;

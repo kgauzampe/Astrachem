@@ -131,7 +131,7 @@ function Home() {
                     <img src={Growth} alt="Image 3" className="image" />
                 </div>
                 <div className="centext">
-                    <Typography variant="h6" color="#65676A" style={{ textAlign: 'center', fontFamily: 'Montserrat' }}>
+                    <Typography variant="h6" color="#65676A"  style={{fontFamily: 'Montserrat', textAlign: 'center', fontFamily: 'Montserrat' }}>
                         At AstraChem, we're all about making a difference. We're not just here to provide you with locally
                         developed cleaning solutions for your home and business; we want to be a driving force for
                         positive change in the communities we touch. Through partnerships, educational programs, and
