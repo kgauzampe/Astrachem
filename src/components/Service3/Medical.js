@@ -101,7 +101,7 @@ const Medical = () => {
                     </div>
                 </div>
             </Container>
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     )
