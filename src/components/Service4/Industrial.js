@@ -79,7 +79,6 @@ const Industrial = () => {
                                 <br />
                                 • Food Processing Facilities
                                 <br />
-                                <br />
                                 • Automotive Workshops
                                 <br />
                                 • Petrochemical and Refinery Sites
