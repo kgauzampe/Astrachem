@@ -39,12 +39,12 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: -55px;
+    left: -60px;
     background-color: white;
     padding: 10px;
   }
   .menu ul li a:hover {
-    color: #00f; /* Change to your desired hover color */
+    color: #00f; 
   }
   
   .menu ul li:hover .dropdown-content {
