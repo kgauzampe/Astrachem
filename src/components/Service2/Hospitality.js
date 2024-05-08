@@ -80,8 +80,7 @@ const Hospitality = () => {
                                 • Resorts
                                 <br/>
                                 • Spas
-                                <br />
-                                <br />
+                                <br/>
                                 • Event Venues
                                 <br />
                                 • Vacation Rentals
@@ -100,8 +99,7 @@ const Hospitality = () => {
                             to the following industries:
                             </Typography>
                             <Typography component="div" >
-                                <br />
-                                <br />
+                                {/* <br /> */}
                                 • Medical
                                 <br />
                                 • Industrial 
