@@ -66,8 +66,7 @@ const Domestic = () => {
                                 provide the support you need.
 
                             </Typography>
-                            <br />
-                            {/* <img src={secondIMG} alt="Card" className="serv-image1" /> */}
+                         
                             <Typography variant="h5" component="h5" className="Serv1-t">
                                 Sectors in the Domestic/Home Industry We Serve
                             </Typography>
