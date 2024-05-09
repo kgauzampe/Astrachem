@@ -61,14 +61,11 @@ const CardNavbar = () => {
               </Link>
             </div>
           </li>
-          <li>
+          {/* <li>
             <Link to="/#contactDiv" smooth={true} duration={500}>
               Contact
             </Link>
-            {/* <ScrollLink to="/" spy={true} smooth={true} duration={500} className='link'>
-              Contact
-            </ScrollLink> */}
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="burger-menu" onClick={toggleMenu}>

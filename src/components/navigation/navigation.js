@@ -63,7 +63,7 @@ const Navbar = () => {
 
           </li>
           <li>
-            <ScrollLink to="con" spy={true} smooth={true} duration={500}>
+            <ScrollLink to="contactDiv" spy={true} smooth={true} duration={500}>
               Contact
             </ScrollLink>
           </li>
