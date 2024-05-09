@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Domestic.css";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import CardNavbar from "../CardNav/navigation/navigation";
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';

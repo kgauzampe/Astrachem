@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./Hospitality.css";
 import CardNavbar from "../CardNav/navigation/navigation";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
 import Serv1 from '../../images/Hos.jpg'
+import { HashLink as Link } from 'react-router-hash-link';
 // import secondIMG from '../../Images/QA Training pic 2.png'
 
 const Hospitality = () => {

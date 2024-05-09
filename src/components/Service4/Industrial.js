@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Industrial.css";
 import CardNavbar from "../CardNav/navigation/navigation";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Footer from "../footer/footer";
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";

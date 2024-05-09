@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Medical.css";
 import CardNavbar from "../CardNav/navigation/navigation";
 import Footer from "../footer/footer";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Button from '@mui/material/Button';
 import { Typography } from "@mui/material";
 import Container from '@mui/material/Container';
